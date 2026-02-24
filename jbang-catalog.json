@@ -1,0 +1,8 @@
+{
+  "aliases": {
+    "mn-launch": {
+      "script-ref": "MicronautLaunchTUI.java",
+      "description": "Micronaut Launch TUI - interactive terminal UI for scaffolding Micronaut projects"
+    }
+  }
+}
