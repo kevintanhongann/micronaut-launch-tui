@@ -2,6 +2,8 @@
 
 A JBang-powered terminal UI for bootstrapping Micronaut projects directly into the current working directory. Replicates the [micronaut.io/launch](https://micronaut.io/launch) experience in the terminal.
 
+<img width="1425" height="737" alt="image" src="https://github.com/user-attachments/assets/a7b111f4-8d14-4408-8095-e68336d5a57a" />
+
 ## Features
 
 - Interactive terminal UI with keyboard and mouse support
