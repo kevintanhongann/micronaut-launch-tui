@@ -17,25 +17,47 @@ A JBang-powered terminal UI for bootstrapping Micronaut projects directly into t
 
 ## Installation
 
+### From JBang Catalog (recommended)
+
+Run directly without cloning:
+
+```bash
+jbang mn-launch@kevintanhongann/micronaut-launch-tui
+```
+
 Install globally as a command:
 
 ```bash
-jbang app install --name mn-launch MicronautLaunchTUI.java
+jbang app install mn-launch@kevintanhongann/micronaut-launch-tui
 ```
 
-Or run directly:
+Then simply run:
+
+```bash
+mn-launch
+```
+
+### From source
+
+Clone the repository and run directly:
 
 ```bash
 jbang MicronautLaunchTUI.java
+```
+
+Or install locally:
+
+```bash
+jbang app install --name mn-launch MicronautLaunchTUI.java
 ```
 
 ## Usage
 
 1. Run the command:
    ```bash
-   jbang MicronautLaunchTUI.java
-   # or if installed:
    mn-launch
+   # or without installing:
+   jbang mn-launch@kevintanhongann/micronaut-launch-tui
    ```
 
 2. Configure your project:
